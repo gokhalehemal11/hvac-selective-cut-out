@@ -1,0 +1,565 @@
+<!-- This is a jinja2 -->
+<!-- served from your routes in server.py -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selective Cut Out Mode</title>
+    <meta name="description" content="Selective Cut Out Mode">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<svg style="left: 0px; top: 0px; width: 100%; height: 100%; display: block; min-width: 855px; min-height: 544px; background-color: transparent; background-image: none;">
+   <defs>
+      <filter class="button" id="dropShadow">
+         <feGaussianBlur in="SourceAlpha" stdDeviation="1.7" result="blur"></feGaussianBlur>
+         <feOffset in="blur" dx="3" dy="3" result="offsetBlur"></feOffset>
+         <feFlood flood-color="#3D4574" flood-opacity="0.4" result="offsetColor"></feFlood>
+         <feComposite in="offsetColor" in2="offsetBlur" operator="in" result="offsetBlur"></feComposite>
+         <feBlend in="SourceGraphic" in2="offsetBlur"></feBlend>
+      </filter>
+   </defs>
+   <g transformOrigin="0 0" transform="scale(1,1)translate(-2,-50)">
+      <g></g>
+      <g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="170" y="100" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="300" y="100" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="430" y="100" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="560" y="100" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="690" y="100" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <path d="M 800 100 Q 840 100 840 130 Q 840 160 800 160 Q 820 130 800 100 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"></path>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="40" y="100" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <path d="M 10 100 Q 50 100 50 130 Q 50 160 10 160 Q 30 130 10 100 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" transform="rotate(180,30,130)" pointer-events="all"></path>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="11" x="70" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 71px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="21" x="120" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 121px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="12" x="190" y="117.5" width="30" height="25" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 191px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="22" x="245" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 246px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="13" x="320" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 321px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="23" x="370" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 371px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="14" x="450" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 451px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="24" x="500" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 501px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="15" x="580" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 581px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="25" x="635" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 636px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="16" x="710" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 711px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect class="vac" name="26" x="760" y="117.5" width="30" height="25" rx="3.75" ry="3.75" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 28px; height: 1px; padding-top: 130px; margin-left: 761px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="85" y="170" width="40" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="85" y="170" width="40" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 180px; margin-left: 86px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Car 1</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="212.5" y="170" width="40" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="212.5" y="170" width="40" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 180px; margin-left: 214px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Car 2</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="340" y="170" width="40" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="340" y="170" width="40" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 180px; margin-left: 341px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Car 3</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="465" y="170" width="40" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="465" y="170" width="40" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 180px; margin-left: 466px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Car 4</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="597.5" y="170" width="40" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="597.5" y="170" width="40" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 180px; margin-left: 599px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Car 5</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="730" y="170" width="40" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="730" y="170" width="40" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 180px; margin-left: 731px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Car 6</div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="275" y="267.5" width="310" height="310" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="370" y="550" width="140" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="370" y="550" width="140" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 138px; height: 1px; padding-top: 560px; margin-left: 371px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b><font style="font-size: 19px">HMI SCREEN</font></b><br><br><button class="cutout" style="background-color: #b0aca5">Send </button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="300" y="58.4" width="215" height="20" fill="none" stroke="white" pointer-events="stroke" visibility="hidden" stroke-width="9"></rect>
+            <rect x="300" y="58.4" width="215" height="20" fill="none" stroke="none" pointer-events="all"></rect>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 213px; height: 1px; padding-top: 68px; margin-left: 301px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b><font style="font-size: 19px">HVAC Architecture</font></b></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="300" y="280" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="440" y="280" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="300" y="369.8" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="300" y="458.8" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="440" y="459.8" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <rect x="440" y="369.3" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="all"></rect>
+         </g>
+         <button transform="translate(0.5,0.5)" style="visibility: visible;">
+            <ellipse cx="332.5" cy="307.5" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></ellipse>
+         </button>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 308px; margin-left: 311px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="11">11</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="385" cy="307.5" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 308px; margin-left: 364px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="21">21</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="527.5" cy="310" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 310px; margin-left: 506px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="22">22</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="467.5" cy="310" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 310px; margin-left: 446px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="12">12</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="530" cy="400" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 400px; margin-left: 509px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="24">24</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="472.5" cy="400" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 400px; margin-left: 451px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="14">14</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="387.5" cy="400" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 400px; margin-left: 366px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="23">23</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="332.5" cy="400" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 400px; margin-left: 311px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="13">13</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="335" cy="490" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 490px; margin-left: 314px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="15">15</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="387.5" cy="490" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 490px; margin-left: 366px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="25">25</button></div>                     
+                        </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="477.5" cy="490" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 490px; margin-left: 456px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="16">16</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+         <g transform="translate(0.5,0.5)" style="visibility: visible;">
+            <button cx="527.5" cy="490" rx="22.5" ry="22.5" fill="#ffffff" stroke="#000000" pointer-events="all"></button>
+         </g>
+         <g style="">
+            <g>
+               <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%">
+                  <div style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 43px; height: 1px; padding-top: 490px; margin-left: 506px;">
+                     <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                        <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                        	<button class="button" id="26">26</button></div>
+                     </div>
+                  </div>
+               </foreignObject>
+            </g>
+         </g>
+      </g>
+      <g></g>
+      <g></g>
+   </g>
+</svg>
+<br><br>
+    <div id="info_val"> 
+    </div>
+<br>
+    <div id="bin_rep">  
+    </div>
+    <br>
+    <div id="note" style="display:none">
+      <b>Note: </b> 1 represents that Hvac is cut-out and 0 represents cut-out Mode is Reset. <br> Last 4 bits represent Consist ID (#1)
+    </div>
+    
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='client.js') }}"></script>
+  </body>
+</html>
