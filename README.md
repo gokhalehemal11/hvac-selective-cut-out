@@ -1,5 +1,6 @@
-🐍🐍🐍 Welcome to the Glitch Python
+Python3 Flask Demonstration on Glitch: Selective HVAC Cut-Out 
 ==================================
+Link: https://hvac-cut-out.glitch.me/
 
 This is a port of the default Glitch Node app to Python3.. on Glitch!!!
 
@@ -13,7 +14,6 @@ Changes
 - ported `server.js` to `server.py`
 - update `README.md`
 
-Made By [@dschep](https://glitch.com/@dschep)
 ----------------------
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
@@ -34,10 +34,4 @@ On the back-end,
 - your app starts at `server.py`
 - add frameworks and packages in `.requirements.txt`
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
 
